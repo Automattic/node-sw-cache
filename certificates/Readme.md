@@ -1,0 +1,1 @@
+This directory stores your SSL Certificates to be used with the proxy in HTTPS (needed in most case for Service Worker).
