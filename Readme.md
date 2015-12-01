@@ -13,6 +13,8 @@ sw-cache --target http://localhost:3000 --proxy https://localhost:3001 --injectC
 
 ### From the client
 
+Use the `--injectClient` option or require `sw-cache` from your client app for more fine grained control:
+
 ```
 var swCacheClient = require( 'sw-cache' );
 swCacheClient.load();
