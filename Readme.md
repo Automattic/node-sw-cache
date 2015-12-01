@@ -14,14 +14,14 @@ sw-cache --target http://localhost:3000 --proxy https://localhost:3001 --injectC
 ### From the client
 
 ```
-var swCacheClient = ( 'sw-cache' );
+var swCacheClient = require( 'sw-cache' );
 swCacheClient.load();
 
 // do not cache local requests
 swCacheClient.blacklist( 'https://localhost:3001' );
 
 // cache requests manually
-swCacheClient.cacheRequest( reqUrl, res );
+swCacheClient.cacheRequest( reqUrl, responseData );
 
 // retrieve a cached request manually
 swCacheClient.getCachedResponse( reqUrl ); // returns a Promise
