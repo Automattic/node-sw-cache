@@ -1,6 +1,6 @@
 {
   "name": "sw-cache",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Service Worker as a middleware to help you cache your application",
   "private": false,
   "repository": {
@@ -8,7 +8,6 @@
     "url": "https://github.com/Automattic/node-sw-cache.git"
   },
   "dependencies": {
-    "concat-stream": "^1.5.1",
     "express": "^4.13.3",
     "harmon": "^1.3.1",
     "http-proxy": "^1.12.0",
@@ -16,8 +15,6 @@
     "lodash": "^3.10.1",
     "node-forge": "^0.6.38",
     "shelljs": "^0.5.3",
-    "spawn-sync": "^1.0.14",
-    "through": "^2.3.8",
     "yargs": "^3.30.0"
   },
   "engines": {
