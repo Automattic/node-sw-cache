@@ -13,8 +13,8 @@
     "http-proxy": "^1.12.0",
     "inquirer": "^0.11.0",
     "lodash": "^4.18.1",
-    "node-forge": "^0.6.38",
-    "shelljs": "^0.5.3",
+    "node-forge": "^1.4.0",
+    "shelljs": "^0.10.0",
     "sudo": "^1.0.3",
     "yargs": "^3.30.0"
   },
